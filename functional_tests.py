@@ -21,7 +21,7 @@ class NewVisitorTest(unittest.TestCase):
 if __name__ == '__main__':
 	unittest.main(warnings='ignore')
 
-browser = webdriver.Firefox()
-browser.get('http://localhost:8000')
+# browser = webdriver.Firefox()
+# browser.get('http://localhost:8000')
 
-assert 'Django' in browser.title
+# assert 'Django' in browser.title
