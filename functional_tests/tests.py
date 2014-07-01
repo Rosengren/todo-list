@@ -77,13 +77,5 @@ class NewVisitorTest(LiveServerTestCase):
 
 		# Satisfied, they both go back to sleep
 
-		# table = self.browser.find_element_by_id('id_list_table')
-		# rows = table.find_elements_by_tag_name('tr')
-		# self.assertIn('1: Buy peacock feathers', [row.text for row in rows])
-		# self.assertIn('2: Use peacock feathers to make a fly', [row.text for row in rows])
-
-		self.fail('Finish the test!')
-
-
 if __name__ == '__main__':
 	unittest.main(warnings='ignore')
